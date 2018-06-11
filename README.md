@@ -5,3 +5,9 @@
 ```sh
 brew install ankane/brew/jetpack
 ```
+
+[pgsync](https://github.com/ankane/pgsync) - Sync Postgres data between databases
+
+```sh
+brew install ankane/brew/pgsync
+```
