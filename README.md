@@ -11,3 +11,9 @@ brew install ankane/brew/jetpack
 ```sh
 brew install ankane/brew/pgsync
 ```
+
+[pgslice](https://github.com/ankane/pgslice) - Postgres partitioning as easy as pie
+
+```sh
+brew install ankane/brew/pgslice
+```
