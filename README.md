@@ -6,6 +6,12 @@
 brew install ankane/brew/jetpack
 ```
 
+[Dexter](https://github.com/ankane/dexter) - The automatic indexer for Postgres
+
+```sh
+brew install ankane/brew/dexter
+```
+
 [pgsync](https://github.com/ankane/pgsync) - Sync Postgres data between databases
 
 ```sh
