@@ -1,13 +1,13 @@
 class Jetpack < Formula
   desc "Friendly package manager for R"
   homepage "https://github.com/ankane/jetpack"
-  url "https://github.com/ankane/jetpack/archive/v0.1.0.tar.gz"
-  sha256 "680b3b30abc98f571501f0b6c902510b020a55841bcd882bb315bedfc8fe0d19"
+  url "https://github.com/ankane/jetpack/archive/v0.1.1.tar.gz"
+  sha256 "8747df17007b6a51cfb63a95d4530fa18833cb6b4281caabb0e1ef823e2dae96"
 
   depends_on "r"
 
   def install
-    bin.install "jetpack"
+    bin.install "R/jetpack.R" => "jetpack"
   end
 
   test do
