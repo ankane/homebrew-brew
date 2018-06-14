@@ -1,8 +1,8 @@
 class Jetpack < Formula
   desc "Friendly package manager for R"
   homepage "https://github.com/ankane/jetpack"
-  url "https://github.com/ankane/jetpack/archive/v0.1.2.tar.gz"
-  sha256 "cae0c86216e05517ed23f87bdc7db0a794a74154c5346077cea9987a4e8fd90b"
+  url "https://github.com/ankane/jetpack/archive/v0.1.3.tar.gz"
+  sha256 "15973caf2bf722baa21a44091cb3b2a40504a316560a2b7b4da14bfc67ec4a96"
 
   depends_on "r"
 
