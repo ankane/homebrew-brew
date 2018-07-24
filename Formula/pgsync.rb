@@ -6,6 +6,7 @@ class Pgsync < Formula
       :revision => "c7a4dc6a06f6577e7d7266d1f5ed69019ddf5a87"
 
   depends_on "libpq"
+  depends_on "ruby" if MacOS.version <= :sierra
 
   def install
     ENV["ARCHFLAGS"] = "-arch x86_64"
@@ -19,5 +20,6 @@ class Pgsync < Formula
 
   test do
     system "#{bin}/pgsync", "--setup"
+    assert File.exist?(".pgsync.yml")
   end
 end

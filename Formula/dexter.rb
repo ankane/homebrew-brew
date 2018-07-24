@@ -6,6 +6,7 @@ class Dexter < Formula
       :revision => "3932e84fae9404520b2c45b9eaa06d5674322822"
 
   depends_on "libpq"
+  depends_on "ruby" if MacOS.version <= :sierra
 
   def install
     ENV["ARCHFLAGS"] = "-arch x86_64"

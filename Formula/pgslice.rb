@@ -18,6 +18,8 @@ class Pgslice < Formula
   end
 
   test do
-    system "#{bin}/pgslice", "--version"
+    out = pipe_output("#{bin}/pgslice prep users created_at day 2>&1")
+    expected = "Set PGSLICE_URL"
+    assert_match(expected, out)
   end
 end
