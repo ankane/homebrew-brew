@@ -6,6 +6,12 @@
 brew install ankane/brew/dexter
 ```
 
+[pdscan](https://github.com/ankane/pdscan) - Scan your data stores for unencrypted personal data (PII)
+
+```sh
+brew install ankane/brew/pdscan
+```
+
 [pgsync](https://github.com/ankane/pgsync) - Sync Postgres data between databases
 
 ```sh
