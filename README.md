@@ -6,6 +6,12 @@
 brew install ankane/brew/dexter
 ```
 
+[onnxruntime](https://github.com/Microsoft/onnxruntime) - Cross-platform, high performance scoring engine for ML models
+
+```sh
+brew install ankane/brew/onnxruntime
+```
+
 [pdscan](https://github.com/ankane/pdscan) - Scan your data stores for unencrypted personal data (PII)
 
 ```sh
