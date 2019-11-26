@@ -6,6 +6,12 @@
 brew install ankane/brew/dexter
 ```
 
+[LibTorch](https://github.com/pytorch/pytorch) - Tensors and dynamic neural networks with strong GPU acceleration
+
+```sh
+brew install ankane/brew/libtorch
+```
+
 [onnxruntime](https://github.com/Microsoft/onnxruntime) - Cross-platform, high performance scoring engine for ML models
 
 ```sh
