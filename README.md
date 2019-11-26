@@ -6,12 +6,6 @@
 brew install ankane/brew/dexter
 ```
 
-[LibTorch](https://github.com/pytorch/pytorch) - Tensors and dynamic neural networks with strong GPU acceleration
-
-```sh
-brew install ankane/brew/libtorch
-```
-
 [pdscan](https://github.com/ankane/pdscan) - Scan your data stores for unencrypted personal data (PII)
 
 ```sh
