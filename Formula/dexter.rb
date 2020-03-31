@@ -12,8 +12,8 @@ class Dexter < Formula
   end
 
   resource "pg_query" do
-    url "https://rubygems.org/gems/pg_query-1.0.1.gem"
-    sha256 "1b90ce1aa86b520c8912a501209617f25b79173c3653de56df4faf3b1cfdd9b1"
+    url "https://rubygems.org/gems/pg_query-1.2.0.gem"
+    sha256 "a10a84abc09a7486bc0693664013e4395301914aafc330792bdbd4adec373a5d"
   end
 
   resource "slop" do
