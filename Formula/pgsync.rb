@@ -2,11 +2,10 @@ class Pgsync < Formula
   desc "Sync Postgres data between databases"
   homepage "https://github.com/ankane/pgsync"
   url "https://github.com/ankane/pgsync.git",
-      :tag => "v0.4.0",
-      :revision => "c7a4dc6a06f6577e7d7266d1f5ed69019ddf5a87"
+      :tag => "v0.5.2",
+      :revision => "707abec8b13d26aa6d4807b8e3a2072f5b3e8907"
 
   depends_on "libpq"
-  depends_on "ruby" if MacOS.version <= :sierra
 
   def install
     ENV["ARCHFLAGS"] = "-arch x86_64"
@@ -19,7 +18,7 @@ class Pgsync < Formula
   end
 
   test do
-    system "#{bin}/pgsync", "--setup"
+    system "#{bin}/pgsync", "--init"
     assert File.exist?(".pgsync.yml")
   end
 end
