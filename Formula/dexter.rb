@@ -1,12 +1,10 @@
 class Dexter < Formula
   desc "Automatic indexer for Postgres"
   homepage "https://github.com/ankane/dexter"
-  url "https://github.com/ankane/dexter.git",
-      :tag => "v0.3.5",
-      :revision => "3932e84fae9404520b2c45b9eaa06d5674322822"
+  url "https://github.com/ankane/dexter/archive/v0.3.5.tar.gz"
+  sha256 "d31d2d4b5e15aff02f9c4ecd7e5367aa5aeb1d4608b209bd02981a0249e82af1"
 
   depends_on "libpq"
-  depends_on "ruby" if MacOS.version <= :sierra
 
   def install
     ENV["ARCHFLAGS"] = "-arch x86_64"

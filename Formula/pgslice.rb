@@ -5,7 +5,6 @@ class Pgslice < Formula
   sha256 "da34793f93f39544cc384a90bc7f4f38c233e924c75881d4a3ef1186c952d1b2"
 
   depends_on "libpq"
-  depends_on "ruby" if MacOS.version <= :sierra
 
   def install
     ENV["ARCHFLAGS"] = "-arch x86_64"
@@ -19,7 +18,6 @@ class Pgslice < Formula
 
   test do
     out = pipe_output("#{bin}/pgslice prep users created_at day 2>&1")
-    expected = "Set PGSLICE_URL"
-    assert_match(expected, out)
+    assert_match "Set PGSLICE_URL", out
   end
 end

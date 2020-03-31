@@ -1,9 +1,8 @@
 class Pgsync < Formula
   desc "Sync Postgres data between databases"
   homepage "https://github.com/ankane/pgsync"
-  url "https://github.com/ankane/pgsync.git",
-      :tag => "v0.5.2",
-      :revision => "707abec8b13d26aa6d4807b8e3a2072f5b3e8907"
+  url "https://github.com/ankane/pgsync/archive/v0.5.2.tar.gz"
+  sha256 "fb324de20527f2059226d216089c2ef2e1f20c0c1cda0402a145ba3476520324"
 
   depends_on "libpq"
 
