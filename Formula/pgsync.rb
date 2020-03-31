@@ -32,7 +32,6 @@ class Pgsync < Formula
   end
 
   def install
-    ENV["ARCHFLAGS"] = "-arch x86_64"
     ENV["GEM_HOME"] = libexec
     ENV["PG_CONFIG"] = Formula["libpq"].opt_bin/"pg_config"
 
