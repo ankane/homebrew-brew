@@ -1,8 +1,8 @@
 class Dexter < Formula
   desc "Automatic indexer for Postgres"
   homepage "https://github.com/ankane/dexter"
-  url "https://github.com/ankane/dexter/archive/v0.3.6.tar.gz"
-  sha256 "f71f00513554af6f1cb5ea281d1b983db6710336bed7bcc6864a4b0a4cd69e06"
+  url "https://github.com/ankane/dexter/archive/v0.3.7.tar.gz"
+  sha256 "ce880ac9ecc442057f69a42d15a9e869029d3c3e2b4b26f8016295b18768df57"
 
   depends_on "libpq"
 
@@ -17,8 +17,8 @@ class Dexter < Formula
   end
 
   resource "slop" do
-    url "https://rubygems.org/gems/slop-4.8.0.gem"
-    sha256 "fae9fbfd4aea2470e47f42322d60ba547051027eb70816e1d01f36f0aa4df456"
+    url "https://rubygems.org/gems/slop-4.8.2.gem"
+    sha256 "a3d5be3ad304b9dbd00b7c18a0a067b09ff6fd28485d4c6b05adb294d1eea115"
   end
 
   def install
