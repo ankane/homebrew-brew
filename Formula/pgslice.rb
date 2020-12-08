@@ -3,6 +3,7 @@ class Pgslice < Formula
   homepage "https://github.com/ankane/pgslice"
   url "https://github.com/ankane/pgslice/archive/v0.4.6.tar.gz"
   sha256 "40fb1303a04664885d08f7a264933f63f0d32d4189c206633b700f0d7c6915cd"
+  license "MIT"
 
   depends_on "libpq"
 

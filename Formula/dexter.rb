@@ -3,6 +3,7 @@ class Dexter < Formula
   homepage "https://github.com/ankane/dexter"
   url "https://github.com/ankane/dexter/archive/v0.3.7.tar.gz"
   sha256 "ce880ac9ecc442057f69a42d15a9e869029d3c3e2b4b26f8016295b18768df57"
+  license "MIT"
 
   depends_on "libpq"
 
