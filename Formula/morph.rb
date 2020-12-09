@@ -1,5 +1,5 @@
 class Morph < Formula
-  desc "Privacy-preserving, in-memory, key-value store"
+  desc "Encrypted, in-memory, key-value store"
   homepage "https://github.com/ankane/morph"
   url "https://github.com/ankane/morph/archive/v0.1.1.tar.gz"
   sha256 "e250e144b56097f503e59a8f2028baf8177c209e370c94246500590ddc8fa935"
