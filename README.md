@@ -23,3 +23,9 @@ brew install ankane/brew/pgsync
 ```sh
 brew install ankane/brew/pgslice
 ```
+
+[pgvector](https://github.com/ankane/pgvector) - Open-source vector similarity search for Postgres
+
+```sh
+brew install ankane/brew/pgvector
+```
