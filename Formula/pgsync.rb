@@ -8,8 +8,8 @@ class Pgsync < Formula
   depends_on "libpq"
 
   resource "parallel" do
-    url "https://rubygems.org/gems/parallel-1.19.1.gem"
-    sha256 "c27ee2925978e8100f49063fd60f625522a6e96b08541ac26e7f2a72d594518a"
+    url "https://rubygems.org/gems/parallel-1.21.0.gem"
+    sha256 "e4a92d75cf9d0e3d50f396f5180f827dcb985f98436d4b170e7a0b864ebd6ec2"
   end
 
   resource "pg" do
@@ -18,8 +18,8 @@ class Pgsync < Formula
   end
 
   resource "slop" do
-    url "https://rubygems.org/gems/slop-4.8.2.gem"
-    sha256 "a3d5be3ad304b9dbd00b7c18a0a067b09ff6fd28485d4c6b05adb294d1eea115"
+    url "https://rubygems.org/gems/slop-4.9.1.gem"
+    sha256 "498de9c170ab15573a69aca92cc6199122be319e108de0f74a41cb26abdceb18"
   end
 
   resource "tty-cursor" do
