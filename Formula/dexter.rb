@@ -13,13 +13,13 @@ class Dexter < Formula
   end
 
   resource "pg_query" do
-    url "https://rubygems.org/gems/pg_query-1.2.0.gem"
-    sha256 "a10a84abc09a7486bc0693664013e4395301914aafc330792bdbd4adec373a5d"
+    url "https://rubygems.org/gems/pg_query-1.3.0.gem"
+    sha256 "0e1be8d88a8c0521b81f84d43efb8349ef1330861d4a353015b535018a1f34c5"
   end
 
   resource "slop" do
-    url "https://rubygems.org/gems/slop-4.8.2.gem"
-    sha256 "a3d5be3ad304b9dbd00b7c18a0a067b09ff6fd28485d4c6b05adb294d1eea115"
+    url "https://rubygems.org/gems/slop-4.9.1.gem"
+    sha256 "498de9c170ab15573a69aca92cc6199122be319e108de0f74a41cb26abdceb18"
   end
 
   def install
