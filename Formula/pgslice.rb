@@ -1,8 +1,8 @@
 class Pgslice < Formula
   desc "Postgres partitioning as easy as pie"
   homepage "https://github.com/ankane/pgslice"
-  url "https://github.com/ankane/pgslice/archive/v0.4.6.tar.gz"
-  sha256 "40fb1303a04664885d08f7a264933f63f0d32d4189c206633b700f0d7c6915cd"
+  url "https://github.com/ankane/pgslice/archive/v0.4.7.tar.gz"
+  sha256 "e67b60decb398b2ab096133735f1bfe9ff95a0f22f0517840033f125b0dd8d49"
   license "MIT"
 
   depends_on "libpq"
