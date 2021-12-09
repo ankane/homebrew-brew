@@ -6,6 +6,12 @@
 brew install ankane/brew/dexter
 ```
 
+[Disco](https://github.com/ankane/disco-cli) - Generate recommendations from CSV files
+
+```sh
+brew install ankane/brew/disco
+```
+
 [pdscan](https://github.com/ankane/pdscan) - Scan your data stores for unencrypted personal data (PII)
 
 ```sh
