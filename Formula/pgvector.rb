@@ -1,8 +1,8 @@
 class Pgvector < Formula
   desc "Open-source vector similarity search for Postgres"
   homepage "https://github.com/ankane/pgvector"
-  url "https://github.com/ankane/pgvector/archive/v0.2.0.tar.gz"
-  sha256 "1ed926ea2f06adb1ded9015ae8e131dba3e9c7656e28d5e180fc5e352d49dc5e"
+  url "https://github.com/ankane/pgvector/archive/v0.2.1.tar.gz"
+  sha256 "f5d7d038f826498fb4908d9dca66c2e7c75ac6350f5af9eb63f47dead244f6a8"
   license "PostgreSQL"
 
   depends_on "postgresql"
