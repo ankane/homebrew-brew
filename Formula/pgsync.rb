@@ -1,8 +1,8 @@
 class Pgsync < Formula
   desc "Sync Postgres data between databases"
   homepage "https://github.com/ankane/pgsync"
-  url "https://github.com/ankane/pgsync/archive/v0.6.8.tar.gz"
-  sha256 "d2e20395a518aa443d1786be9a0ea9b961241241142c2d675087d4a41b9b4370"
+  url "https://github.com/ankane/pgsync/archive/v0.7.0.tar.gz"
+  sha256 "8c0b38294882756e3116ef6bd4a0cfc90ed38b0d2e217a3fdb3dcedb5e000751"
   license "MIT"
 
   depends_on "libpq"
@@ -13,8 +13,8 @@ class Pgsync < Formula
   end
 
   resource "pg" do
-    url "https://rubygems.org/gems/pg-1.2.3.gem"
-    sha256 "f2e71e101eb7fc297222fa9a277a89a9686729a8dfa416d46408e696b5cfae8e"
+    url "https://rubygems.org/gems/pg-1.3.4.gem"
+    sha256 "abb23723463fdc8c877f42679b840e81518ee26b472b5ac4fd3156fad51c0c24"
   end
 
   resource "slop" do
