@@ -29,3 +29,9 @@ brew install ankane/brew/pgsync
 ```sh
 brew install ankane/brew/pgslice
 ```
+
+[strata](https://github.com/ankane/strata) - The easy way to ship Stan models
+
+```sh
+brew install ankane/brew/strata
+```
