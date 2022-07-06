@@ -1,25 +1,25 @@
 class Pgsync < Formula
   desc "Sync Postgres data between databases"
   homepage "https://github.com/ankane/pgsync"
-  url "https://github.com/ankane/pgsync/archive/v0.7.0.tar.gz"
-  sha256 "8c0b38294882756e3116ef6bd4a0cfc90ed38b0d2e217a3fdb3dcedb5e000751"
+  url "https://github.com/ankane/pgsync/archive/v0.7.1.tar.gz"
+  sha256 "e1c0077f5ea450ed29bc310c054e6f67553ab3f54b216472fd71931d3a6bc43b"
   license "MIT"
 
   depends_on "libpq"
 
   resource "parallel" do
-    url "https://rubygems.org/gems/parallel-1.21.0.gem"
-    sha256 "e4a92d75cf9d0e3d50f396f5180f827dcb985f98436d4b170e7a0b864ebd6ec2"
+    url "https://rubygems.org/gems/parallel-1.22.1.gem"
+    sha256 "ebdf1f0c51f182df38522f70ba770214940bef998cdb6e00f36492b29699761f"
   end
 
   resource "pg" do
-    url "https://rubygems.org/gems/pg-1.3.4.gem"
-    sha256 "abb23723463fdc8c877f42679b840e81518ee26b472b5ac4fd3156fad51c0c24"
+    url "https://rubygems.org/gems/pg-1.4.1.gem"
+    sha256 "386bbffad223cce1dda903dad2c59268e41f3d183792506671ae526011ff0487"
   end
 
   resource "slop" do
-    url "https://rubygems.org/gems/slop-4.9.1.gem"
-    sha256 "498de9c170ab15573a69aca92cc6199122be319e108de0f74a41cb26abdceb18"
+    url "https://rubygems.org/gems/slop-4.9.2.gem"
+    sha256 "5edcfaa749f3c978a7f8976520c8ec8aa174c3d5a1fcc52f05932eb7e442f2b5"
   end
 
   resource "tty-cursor" do
