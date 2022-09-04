@@ -19,6 +19,10 @@ class Pdscan < Formula
   end
 
   test do
-    system "#{bin}/pdscan", "--help"
+    (testpath/"emails.txt").write <<~EOS
+      test@example.org
+    EOS
+    output = shell_output("#{bin}/pdscan file://#{testpath}/emails.txt")
+    assert_match "found emails", output
   end
 end
