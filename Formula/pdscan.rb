@@ -2,16 +2,16 @@ class Pdscan < Formula
   desc "Scan your data stores for unencrypted personal data (PII)"
   homepage "https://github.com/ankane/pdscan"
   if OS.linux?
-    url "https://github.com/ankane/pdscan/releases/download/v0.1.5/pdscan_0.1.5_Linux_x86_64.zip"
-    sha256 "63b0b4d471342744c6fb39dd27c9edf8eb1d068281bcc7bb7e8e616c30ef00c5"
+    url "https://github.com/ankane/pdscan/releases/download/v0.1.6/pdscan_0.1.6_Linux_x86_64.zip"
+    sha256 "5fd6b014c71076d62afcff9ada6092be02a62769dc9c080eff31167ce2bc4a15"
   elsif Hardware::CPU.arm?
-    url "https://github.com/ankane/pdscan/releases/download/v0.1.5/pdscan_0.1.5_Darwin_arm64.zip"
-    sha256 "4210e127596094be65ac7074383fc3ab80ae24378f65374ce47b46e20b7a79a3"
+    url "https://github.com/ankane/pdscan/releases/download/v0.1.6/pdscan_0.1.6_Darwin_arm64.zip"
+    sha256 "2c28229baa23e146c77e16a0a8010f3942b9319932b5e6e2ce7b7af08edd5594"
   else
-    url "https://github.com/ankane/pdscan/releases/download/v0.1.5/pdscan_0.1.5_Darwin_x86_64.zip"
-    sha256 "369adec2b384d1bed69b15c6391b055be34b20a6f95233caff577d6ecf5ed6bd"
+    url "https://github.com/ankane/pdscan/releases/download/v0.1.6/pdscan_0.1.6_Darwin_x86_64.zip"
+    sha256 "689518085a9164ac130f1a30a25b5d32cccc267bf952f399b3daf8f0d46bec86"
   end
-  version "0.1.5"
+  version "0.1.6"
   license "MIT"
 
   def install
