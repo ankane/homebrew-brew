@@ -41,7 +41,7 @@ class Dexter < Formula
     system "gem", "install", "--ignore-dependencies", "pgdexter-#{version}.gem"
 
     bin.install libexec/"bin/dexter"
-    bin.env_script_all_files(libexec/"bin", :GEM_HOME => ENV["GEM_HOME"])
+    bin.env_script_all_files(libexec/"bin", GEM_HOME: ENV["GEM_HOME"])
   end
 
   test do

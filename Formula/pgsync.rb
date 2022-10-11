@@ -46,7 +46,7 @@ class Pgsync < Formula
     system "gem", "install", "--ignore-dependencies", "pgsync-#{version}.gem"
 
     bin.install libexec/"bin/pgsync"
-    bin.env_script_all_files(libexec/"bin", :GEM_HOME => ENV["GEM_HOME"])
+    bin.env_script_all_files(libexec/"bin", GEM_HOME: ENV["GEM_HOME"])
   end
 
   test do
