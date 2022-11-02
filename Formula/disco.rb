@@ -12,7 +12,7 @@ class Disco < Formula
 
   def install
     bin.install "disco"
-    libexec.install Dir["*"]
+    prefix.install Dir["*"]
   end
 
   test do
