@@ -36,7 +36,7 @@ brew install ankane/brew/pgslice
 brew install ankane/brew/s3tk
 ```
 
-[strata](https://github.com/ankane/strata) - The easy way to ship Stan models
+[Strata](https://github.com/ankane/strata) - The easy way to ship Stan models
 
 ```sh
 brew install ankane/brew/strata
