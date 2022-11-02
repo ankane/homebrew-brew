@@ -2,7 +2,7 @@ class Librcf < Formula
   desc "Random Cut Forest anomaly detection for C/C++"
   homepage "https://github.com/ankane/librcf"
   if OS.linux?
-    url "https://github.com/ankane/librcf/releases/download/v0.1.0/librcf-0.1.0-aarch64-apple-darwin.tar.gz"
+    url "https://github.com/ankane/librcf/releases/download/v0.1.0/librcf-0.1.0-x86_64-unknown-linux-gnu.tar.gz"
     sha256 "8183afdc540c969cd30706a2b8d263fe2b843e0c4f7bab546547ac00b5897bb1"
   elsif Hardware::CPU.arm?
     url "https://github.com/ankane/librcf/releases/download/v0.1.0/librcf-0.1.0-aarch64-apple-darwin.tar.gz"
