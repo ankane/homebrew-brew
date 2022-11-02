@@ -15,6 +15,7 @@ class Pdscan < Formula
 
   def install
     bin.install "pdscan"
+    prefix.install Dir["*"]
   end
 
   test do
