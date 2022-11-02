@@ -12,6 +12,12 @@ brew install ankane/brew/dexter
 brew install ankane/brew/disco
 ```
 
+[Random Cut Forest C/C++](https://github.com/ankane/librcf) - Random Cut Forest anomaly detection for C/C++
+
+```sh
+brew install ankane/brew/librcf
+```
+
 [pdscan](https://github.com/ankane/pdscan) - Scan your data stores for unencrypted personal data (PII)
 
 ```sh
