@@ -11,7 +11,7 @@ class Librcf < Formula
     url "https://github.com/ankane/librcf/releases/download/v0.1.0/librcf-0.1.0-x86_64-apple-darwin.tar.gz"
     sha256 "f48b030f8c6a86aa8fd4f9edb85cab2e9d87ad763adb9a589ae7a0a4895f76f0"
   end
-  license "MIT"
+  license "Apache-2.0"
 
   def install
     pkgshare.install "example"
