@@ -30,6 +30,12 @@ brew install ankane/brew/pdscan
 brew install ankane/brew/pgslice
 ```
 
+[Random Cut Forest CLI](https://github.com/ankane/rcf-cli) - Command-line interface for Random Cut Forest anomaly detection
+
+```sh
+brew install ankane/brew/rcf
+```
+
 [s3tk](https://github.com/ankane/s3tk) - A security toolkit for Amazon S3
 
 ```sh
