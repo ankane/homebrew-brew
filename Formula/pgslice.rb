@@ -1,20 +1,20 @@
 class Pgslice < Formula
   desc "Postgres partitioning as easy as pie"
   homepage "https://github.com/ankane/pgslice"
-  url "https://github.com/ankane/pgslice/archive/v0.4.7.tar.gz"
-  sha256 "e67b60decb398b2ab096133735f1bfe9ff95a0f22f0517840033f125b0dd8d49"
+  url "https://github.com/ankane/pgslice/archive/v0.5.0.tar.gz"
+  sha256 "25be11b5a5f3c0ea69e9f7093cde7abef1d889774a0b57e3859e624cd92fa6bf"
   license "MIT"
 
   depends_on "libpq"
 
   resource "pg" do
-    url "https://rubygems.org/gems/pg-1.2.3.gem"
-    sha256 "f2e71e101eb7fc297222fa9a277a89a9686729a8dfa416d46408e696b5cfae8e"
+    url "https://rubygems.org/gems/pg-1.4.5.gem"
+    sha256 "c139bd34907e7bbe3291a9b5e651bcf00de1f8a99a3148c064bc2d1b10b5a6f1"
   end
 
   resource "thor" do
-    url "https://rubygems.org/gems/thor-1.1.0.gem"
-    sha256 "cacae12a3761be4ccbe63be19261352b108f86c721c37d87664328efeaa6d0a3"
+    url "https://rubygems.org/gems/thor-1.2.1.gem"
+    sha256 "b1752153dc9c6b8d3fcaa665e9e1a00a3e73f28da5e238b81c404502e539d446"
   end
 
   def install
