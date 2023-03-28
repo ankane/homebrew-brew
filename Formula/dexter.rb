@@ -5,6 +5,7 @@ class Dexter < Formula
   sha256 "68d840020c87b5792ab9eb3e12939cf3b5944427c1e28cf8a34d5737223de2a0"
   license "MIT"
 
+  depends_on "postgresql@15" => [:test]
   depends_on "libpq"
 
   resource "google-protobuf" do
@@ -45,6 +46,23 @@ class Dexter < Formula
   end
 
   test do
-    assert_match version.to_s, shell_output("#{bin}/dexter --version")
+    ENV["LC_ALL"] = "C"
+
+    postgresql = Formula["postgresql@15"]
+    pg_ctl = postgresql.opt_bin/"pg_ctl"
+    port = free_port
+
+    system pg_ctl, "initdb", "-D", testpath/"test"
+    (testpath/"test/postgresql.conf").write <<~EOS, mode: "a+"
+      port = #{port}
+    EOS
+    system pg_ctl, "start", "-D", testpath/"test", "-l", testpath/"log"
+
+    begin
+      output = shell_output("#{bin}/dexter -d postgres -p #{port} -s SELECT 1 2>&1", 1)
+      assert_match 'extension "hypopg" is not available', output
+    ensure
+      system pg_ctl, "stop", "-D", testpath/"test"
+    end
   end
 end
