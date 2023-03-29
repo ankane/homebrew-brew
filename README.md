@@ -1,11 +1,5 @@
 # Homebrew Tap
 
-[Dexter](https://github.com/ankane/dexter) - The automatic indexer for Postgres
-
-```sh
-brew install ankane/brew/dexter
-```
-
 [Disco](https://github.com/ankane/disco-cli) - Generate recommendations from CSV files
 
 ```sh
