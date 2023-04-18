@@ -6,6 +6,7 @@ class Pgslice < Formula
   license "MIT"
 
   depends_on "libpq"
+  depends_on "ruby"
 
   resource "pg" do
     url "https://rubygems.org/gems/pg-1.4.5.gem"
