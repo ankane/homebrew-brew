@@ -1,16 +1,16 @@
 class Pgslice < Formula
   desc "Postgres partitioning as easy as pie"
   homepage "https://github.com/ankane/pgslice"
-  url "https://github.com/ankane/pgslice/archive/v0.5.0.tar.gz"
-  sha256 "25be11b5a5f3c0ea69e9f7093cde7abef1d889774a0b57e3859e624cd92fa6bf"
+  url "https://github.com/ankane/pgslice/archive/v0.6.0.tar.gz"
+  sha256 "d3b3051dbfb18adc1618f792ef0239525e8ce1dfdb8cfcaf836df4b8db458a6f"
   license "MIT"
 
   depends_on "libpq"
   depends_on "ruby"
 
   resource "pg" do
-    url "https://rubygems.org/gems/pg-1.4.5.gem"
-    sha256 "c139bd34907e7bbe3291a9b5e651bcf00de1f8a99a3148c064bc2d1b10b5a6f1"
+    url "https://rubygems.org/gems/pg-1.4.6.gem"
+    sha256 "d98f3dcb4a6ae29780a2219340cb0e55dbafbb7eb4ccc2b99f892f2569a7a61e"
   end
 
   resource "thor" do
