@@ -3,11 +3,11 @@ class S3tk < Formula
 
   desc "Security toolkit for Amazon S3"
   homepage "https://github.com/ankane/s3tk"
-  url "https://github.com/ankane/s3tk/archive/refs/tags/v0.3.1.tar.gz"
-  sha256 "d36de63305833c0bfe8902ca42a567bb5be1a8abab871d6b10d5dbcfadabfade"
+  url "https://github.com/ankane/s3tk/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "630fca8be4c7b25f5a049eb231ed071c5eb6ac0cfe29804f6abbcb76b515bbc6"
   license "MIT"
 
-  depends_on "python@3.10"
+  depends_on "python@3.11"
   depends_on "six"
 
   resource "boto3" do
