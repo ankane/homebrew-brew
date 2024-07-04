@@ -2,14 +2,14 @@ class Disco < Formula
   desc "Generate recommendations from CSV files"
   homepage "https://github.com/ankane/disco-cli"
   if OS.linux?
-    url "https://github.com/ankane/disco-cli/releases/download/v0.1.1/disco-cli-0.1.1-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "9e8d16ff1ce0664cd09d22e535a56a444ae96dbfad771161d27b31651767cd4a"
+    url "https://github.com/ankane/disco-cli/releases/download/v0.1.2/disco-cli-0.1.2-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "51c3532d4b6de74966ce2d2bb8c33b4ffdaf81b5f219b7bc444f4b1e56880ec5"
   elsif Hardware::CPU.arm?
-    url "https://github.com/ankane/disco-cli/releases/download/v0.1.1/disco-cli-0.1.1-aarch64-apple-darwin.tar.gz"
-    sha256 "9f8f1faf6292df020fd25b7f6f652e4e44aa508bc638c8d0bedbc3c60948cdb0"
+    url "https://github.com/ankane/disco-cli/releases/download/v0.1.2/disco-cli-0.1.2-aarch64-apple-darwin.tar.gz"
+    sha256 "6970c511a5e1743113e9dc81f0510e569e281758cdd1cba77140e7aba81f7b37"
   else
-    url "https://github.com/ankane/disco-cli/releases/download/v0.1.1/disco-cli-0.1.1-x86_64-apple-darwin.tar.gz"
-    sha256 "2d32367b2a7193a2f66ae1af4dc988aa3f005aa81db107e3cc0babf27b25a652"
+    url "https://github.com/ankane/disco-cli/releases/download/v0.1.2/disco-cli-0.1.2-x86_64-apple-darwin.tar.gz"
+    sha256 "74dd7eb0c777b9267b73c5d172b7366d5b9707118595ad717e8f1552888b5031"
   end
   license "MIT"
 
