@@ -22,6 +22,6 @@ class Rcf < Formula
   test do
     cp pkgshare/"example-data/input.csv", testpath
     pipe_output("#{bin}/rcf < input.csv > output.csv")
-    assert_predicate testpath/"output.csv", :exist?
+    assert_path_exists testpath/"output.csv"
   end
 end

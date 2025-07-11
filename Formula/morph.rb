@@ -1,7 +1,7 @@
 class Morph < Formula
   desc "Encrypted, in-memory, key-value store"
   homepage "https://github.com/ankane/morph"
-  url "https://github.com/ankane/morph/archive/v0.1.2.tar.gz"
+  url "https://github.com/ankane/morph/archive/refs/tags/v0.1.2.tar.gz"
   sha256 "56916e576b655666f3c3029138aac9f6b52a201cbeeb9d95df15e43787239493"
   license "Apache-2.0"
   head "https://github.com/ankane/morph.git"

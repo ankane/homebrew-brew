@@ -14,7 +14,7 @@ class Strata < Formula
     pkgshare.install "examples"
   end
 
-  def test
+  test do
     cp_r pkgshare/"examples/.", testpath
     system bin/"strata", "bernoulli.stan"
     system "dist/bin/bernoulli", "sample", "data", "file=bernoulli.data.json"

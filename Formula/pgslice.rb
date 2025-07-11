@@ -1,7 +1,7 @@
 class Pgslice < Formula
   desc "Postgres partitioning as easy as pie"
   homepage "https://github.com/ankane/pgslice"
-  url "https://github.com/ankane/pgslice/archive/v0.7.0.tar.gz"
+  url "https://github.com/ankane/pgslice/archive/refs/tags/v0.7.0.tar.gz"
   sha256 "9a43932c4e75f83cc7d984ee7d17447bba53dec48f844e9228fbf65f1b9be4dc"
   license "MIT"
 

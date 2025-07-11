@@ -27,6 +27,6 @@ class Disco < Formula
     EOS
 
     system bin/"disco", "user-recs", "data.csv", "output.csv"
-    assert_predicate testpath/"output.csv", :exist?
+    assert_path_exists testpath/"output.csv"
   end
 end

@@ -59,7 +59,7 @@ class S3tk < Formula
     virtualenv_install_with_resources
   end
 
-  def test
+  test do
     system bin/"s3tk"
   end
 end
