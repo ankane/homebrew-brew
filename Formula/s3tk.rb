@@ -7,17 +7,26 @@ class S3tk < Formula
   sha256 "630fca8be4c7b25f5a049eb231ed071c5eb6ac0cfe29804f6abbcb76b515bbc6"
   license "MIT"
 
-  depends_on "python@3.11"
-  depends_on "six"
+  depends_on "python@3.13"
+
+  resource "args" do
+    url "https://files.pythonhosted.org/packages/e5/1c/b701b3f4bd8d3667df8342f311b3efaeab86078a840fb826bd204118cc6b/args-0.1.0.tar.gz"
+    sha256 "a785b8d837625e9b61c39108532d95b85274acd679693b71ebb5156848fcf814"
+  end
 
   resource "boto3" do
-    url "https://files.pythonhosted.org/packages/07/0e/0fdf99382eadd8481f09fc86c97b97c562a795b6494e75b84000320ee730/boto3-1.22.2.tar.gz"
-    sha256 "fb9a66722a15b0a8edb4f29d63f013877c4c528eff1225bb31dab723c3e5a9ed"
+    url "https://files.pythonhosted.org/packages/6a/1f/b7510dcd26eb14735d6f4b2904e219b825660425a0cf0b6f35b84c7249b0/boto3-1.39.4.tar.gz"
+    sha256 "6c955729a1d70181bc8368e02a7d3f350884290def63815ebca8408ee6d47571"
   end
 
   resource "botocore" do
-    url "https://files.pythonhosted.org/packages/50/5c/d5f027cc397e4df0c618026f6a04330cdb163ee4d0664544f6975dfbdde3/botocore-1.25.2.tar.gz"
-    sha256 "78363cd023c6123a65d90080e14a9fb625a9639d970ab03471c6fe95258ab8c0"
+    url "https://files.pythonhosted.org/packages/e6/9f/21c823ea2fae3fa5a6c9e8caaa1f858acd55018e6d317505a4f14c5bb999/botocore-1.39.4.tar.gz"
+    sha256 "e662ac35c681f7942a93f2ec7b4cde8f8b56dd399da47a79fa3e370338521a56"
+  end
+
+  resource "click" do
+    url "https://files.pythonhosted.org/packages/60/6c/8ca2efa64cf75a977a0d7fac081354553ebe483345c734fb6b6515d96bbc/click-8.2.1.tar.gz"
+    sha256 "27c491cc05d968d271d5a1db13e3b5a184636d9d930f148c50b038f0d0646202"
   end
 
   resource "clint" do
@@ -25,34 +34,34 @@ class S3tk < Formula
     sha256 "05224c32b1075563d0b16d0015faaf9da43aa214e4a2140e51f08789e7a4c5aa"
   end
 
-  resource "click" do
-    url "https://files.pythonhosted.org/packages/42/e1/4cb2d3a2416bcd871ac93f12b5616f7755a6800bccae05e5a99d3673eb69/click-8.1.2.tar.gz"
-    sha256 "479707fe14d9ec9a0757618b7a100a0ae4c4e236fac5b7f80ca68028141a1a72"
-  end
-
   resource "jmespath" do
-    url "https://files.pythonhosted.org/packages/06/7e/44686b986ef9ca6069db224651baaa8300b93af2a085a5b135997bf659b3/jmespath-1.0.0.tar.gz"
-    sha256 "a490e280edd1f57d6de88636992d05b71e97d69a26a19f058ecf7d304474bf5e"
+    url "https://files.pythonhosted.org/packages/00/2a/e867e8531cf3e36b41201936b7fa7ba7b5702dbef42922193f05c8976cd6/jmespath-1.0.1.tar.gz"
+    sha256 "90261b206d6defd58fdd5e85f478bf633a2901798906be2ad389150c5c60edbe"
   end
 
   resource "joblib" do
-    url "https://files.pythonhosted.org/packages/92/b9/9e3616e7e00c8165fb25175c53444533bdde05f3e974d45d9fcbbe451ee6/joblib-1.1.0.tar.gz"
-    sha256 "4158fcecd13733f8be669be0683b96ebdbbd38d23559f54dca7205aea1bf1e35"
+    url "https://files.pythonhosted.org/packages/dc/fe/0f5a938c54105553436dbff7a61dc4fed4b1b2c98852f8833beaf4d5968f/joblib-1.5.1.tar.gz"
+    sha256 "f4f86e351f39fe3d0d32a9f2c3d8af1ee4cec285aafcb27003dda5205576b444"
   end
 
   resource "python-dateutil" do
-    url "https://files.pythonhosted.org/packages/4c/c4/13b4776ea2d76c115c1d1b84579f3764ee6d57204f6be27119f13a61d0a9/python-dateutil-2.8.2.tar.gz"
-    sha256 "0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86"
+    url "https://files.pythonhosted.org/packages/66/c0/0c8b6ad9f17a802ee498c46e004a0eb49bc148f2fd230864601a86dcf6db/python-dateutil-2.9.0.post0.tar.gz"
+    sha256 "37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3"
   end
 
   resource "s3transfer" do
-    url "https://files.pythonhosted.org/packages/7e/19/f82e4af435a19b28bdbfba63f338ea20a264f4df4beaf8f2ab9bfa34072b/s3transfer-0.5.2.tar.gz"
-    sha256 "95c58c194ce657a5f4fb0b9e60a84968c808888aed628cd98ab8771fe1db98ed"
+    url "https://files.pythonhosted.org/packages/ed/5d/9dcc100abc6711e8247af5aa561fc07c4a046f72f659c3adea9a449e191a/s3transfer-0.13.0.tar.gz"
+    sha256 "f5e6db74eb7776a37208001113ea7aa97695368242b364d73e91c981ac522177"
+  end
+
+  resource "six" do
+    url "https://files.pythonhosted.org/packages/94/e7/b2c673351809dca68a0e064b6af791aa332cf192da575fd474ed7d6f16a2/six-1.17.0.tar.gz"
+    sha256 "ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81"
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/1b/a5/4eab74853625505725cefdf168f48661b2cd04e7843ab836f3f63abf81da/urllib3-1.26.9.tar.gz"
-    sha256 "aabaf16477806a5e1dd19aa41f8c2b7950dd3c746362d7e3223dbe6de6ac448e"
+    url "https://files.pythonhosted.org/packages/15/22/9ee70a2574a4f4599c47dd506532914ce044817c7752a79b6a51286319bc/urllib3-2.5.0.tar.gz"
+    sha256 "3fc47733c7e419d4bc3f6b3dc2b4f890bb743906a30d56ba4a5bfa4bbff92760"
   end
 
   def install
@@ -60,6 +69,6 @@ class S3tk < Formula
   end
 
   test do
-    system bin/"s3tk"
+    assert_match version.to_s, shell_output("#{bin}/s3tk --version")
   end
 end
