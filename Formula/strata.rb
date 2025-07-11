@@ -3,11 +3,11 @@ class Strata < Formula
 
   desc "Easy way to ship Stan models"
   homepage "https://github.com/ankane/strata"
-  url "https://github.com/ankane/strata/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "199bd7694285cf61a3c7e34c907ae8b277f95b1d2e90949c6c031b52d80657f0"
+  url "https://github.com/ankane/strata/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "b16802ddc8d32d954a7652086aba9e7e2d229f8edbb0b234b26edcbf3dbd8498"
   license "BSD-3-Clause"
 
-  depends_on "python@3.10"
+  depends_on "python@3.13"
 
   def install
     virtualenv_install_with_resources
