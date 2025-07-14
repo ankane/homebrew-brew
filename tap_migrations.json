@@ -1,4 +1,5 @@
 {
   "dexter": "homebrew/core",
+  "pgslice": "homebrew/core",
   "pgsync": "homebrew/core"
 }
