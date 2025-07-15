@@ -18,12 +18,6 @@ brew install ankane/brew/librcf
 brew install ankane/brew/pdscan
 ```
 
-[pgslice](https://github.com/ankane/pgslice) - Postgres partitioning as easy as pie
-
-```sh
-brew install ankane/brew/pgslice
-```
-
 [Random Cut Forest CLI](https://github.com/ankane/rcf-cli) - Command-line interface for Random Cut Forest anomaly detection
 
 ```sh
